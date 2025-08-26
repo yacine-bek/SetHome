@@ -1,0 +1,17 @@
+name: SetHome
+version: '1.0-SNAPSHOT'
+main: me.yacine.setHome.SetHome
+api-version: '1.21'
+commands:
+  sethome:
+    description: Sets your home location
+    usage: /sethome
+    permission: sethome.use
+  home:
+    description: Teleports you to your home
+    usage: /home
+    permission: sethome.use
+permissions:
+  sethome.use:
+    description: Allows using sethome commands
+    default: true
